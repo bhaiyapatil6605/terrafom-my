@@ -6,9 +6,9 @@ provider "aws" {
 
 resource "aws_instance" "instance" {
 	count = "4"
-	ami = "ami-05674a88169b69e3b"
+	ami = "(ami-0e670eb768a5fc3d4)"
 	instance_type ="t3.micro"
-	key_name = "new-sao-paulo"
+	key_name = "MUMBAI"
     tags = {
         Name = "my_instance"
     }
